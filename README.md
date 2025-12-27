@@ -428,7 +428,7 @@ yarn test:coverage
 
 ### 📖 Detailed Testing Guide
 
-For comprehensive testing documentation, see **[TESTING.md](./TESTING.md)** which includes:
+For comprehensive testing
 - 📁 Test structure and organization
 - 🚀 Running tests (watch, CI, UI, coverage)
 - ✍️ Writing new tests with examples
@@ -497,7 +497,7 @@ For improvements or suggestions:
 4. Push to the branch
 5. Open a Pull Request
 
-## 📞 Support
+## Support
 
 **For debugging:**
 - Open browser console (F12)
@@ -510,7 +510,7 @@ For questions or issues, please create an issue in the repository.
 
 ---
 
-**Built with ❤️ using Nuxt.js 3, TypeScript, Tailwind CSS v4, and modern web technologies**
+**Built using Nuxt.js 3, TypeScript, Tailwind CSS v4, and modern web technologies**
 
 **🎯 Key Highlights:**
 - ✅ Full SSR with external navigation
