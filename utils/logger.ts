@@ -21,7 +21,6 @@ class Logger {
     this.requestCounter = 0
   }
 
-  // Set user tracking ID getter (called from app)
   setUserTrackingIdGetter(getter: () => string): void {
     this.getUserTrackingId = getter
   }
@@ -83,7 +82,6 @@ class Logger {
   private formatContext(context?: Record<string, unknown>): string {
     if (!context) return ''
     
-    // Remove already displayed fields from context
     const filteredContext = { ...context }
     delete filteredContext.method
     delete filteredContext.url
